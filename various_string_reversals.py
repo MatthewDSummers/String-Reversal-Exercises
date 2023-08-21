@@ -10,10 +10,11 @@ def reverse_letters_only(input_str):
             result.append(reversed_letters[index])
             index += 1
     return ''.join(result)
-
 print(reverse_letters_only("9Reverse Letters5 only7"))
+# Output: 9ylnosre tteLesr5 eveR7
 
 def reverse_chars_of_words(input_str):
     words_list = input_str.split()
     return ' '.join([word[::-1] for word in words_list])
 print(reverse_chars_of_words("Let's reverse each word in their original position"))
+# Output: s'teL esrever hcae drow ni rieht lanigiro noitisop
